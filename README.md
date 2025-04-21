@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PortfolioReact
 =======
 # <div align="center">Personal Portfolio Website in React
@@ -16,3 +17,6 @@
 <img src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png" align="left" height="" width="100%" />  
   
 >>>>>>> 264287d (commitdonr)
+=======
+# My-Portfolio
+>>>>>>> 496f11384781134fe56feb90faba965a0e6c2336

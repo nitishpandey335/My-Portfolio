@@ -1,0 +1,11 @@
+
+services:
+  node-app:
+    build: .
+    container_name: my-node-container
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm start
