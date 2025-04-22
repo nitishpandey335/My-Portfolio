@@ -19,11 +19,11 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v3
       with:
-        username: ${{ secrets.DOCKER_NITISHPANDEY335 }}
+        username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t ${{ secrets.DOCKER_NITISHPANDEY335 }}/react-portfolio-app .
+      run: docker build -t ${{ secrets.DOCKER_USERNAME }}/react-portfolio-app .
 
     - name: Push Docker image
-      run: docker push ${{ secrets.DOCKER_NITISHPANDEY335 }}/react-portfolio-app
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/react-portfolio-app
