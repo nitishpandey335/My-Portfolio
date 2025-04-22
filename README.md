@@ -5,7 +5,11 @@
 # <div align="center">Personal Portfolio Website in React
 </div>  
   
+<<<<<<< HEAD
 <div align="center">
+=======
+<div align="center">  
+>>>>>>> f1e5d3b077c7e3ce81183849602039dafbcabb42
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
   <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
@@ -21,3 +25,7 @@
 # My-Portfolio
 >>>>>>> 496f11384781134fe56feb90faba965a0e6c2336
 >>>>>>> ![Screenshot 2025-04-22 135238](https://github.com/user-attachments/assets/bec98917-984c-41d1-be1a-994611313b04)
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1e5d3b077c7e3ce81183849602039dafbcabb42
