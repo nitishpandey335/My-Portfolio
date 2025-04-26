@@ -2,31 +2,24 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
+        stage('Checkout Code') {
             steps {
-                echo 'Cloning repository...'
-                // ye step Jenkins automatic kar leta hai agar Git setup sahi hai
+                git 'https://github.com/nitishpandey335/My-Portfolio.git'
             }
         }
-
         stage('Install Dependencies') {
             steps {
-                echo 'Installing npm packages...'
-                sh 'npm install'
+                bat 'npm install'
             }
         }
-
-        stage('Build') {
+        stage('Build Project') {
             steps {
-                echo 'Building the project...'
-                sh 'npm run build'
+                bat 'npm run build'
             }
         }
-
         stage('Deploy to GitHub Pages') {
             steps {
-                echo 'Deploying to GitHub Pages...'
-                sh 'npm run deploy'
+                bat 'npm run deploy'
             }
         }
     }
